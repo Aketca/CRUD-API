@@ -1,0 +1,22 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "simple crud node js api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aketca/CRUD-API.git"
+  },
+  "author": "Aketca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aketca/CRUD-API/issues"
+  },
+  "homepage": "https://github.com/Aketca/CRUD-API#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
