@@ -14,3 +14,5 @@ const server = createServer((request, response) => {
 const port = process.env.PORT;
 
 server.listen(port);
+
+export default server;
