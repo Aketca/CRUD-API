@@ -1,7 +1,10 @@
-import * as request from 'supertest';
-import server from './index';
+import request from 'supertest';
 import {User} from "./dumbDB";
 import {validate} from "uuid";
+import * as dotenv from 'dotenv';
+import server from "./server";
+
+dotenv.config();
 
 const mockUser: User = {
     username: 'Testname',

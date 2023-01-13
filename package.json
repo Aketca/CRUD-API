@@ -6,6 +6,7 @@
   "scripts": {
     "start:dev": "nodemon",
     "start:prod": "webpack && node dist/main.js",
+    "start:multi": "ts-node src/balancer.ts",
     "test": "jest --detectOpenHandles --verbose"
   },
   "repository": {
