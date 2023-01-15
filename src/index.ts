@@ -4,6 +4,7 @@ import server from "./server";
 dotenv.config();
 
 const port = process.env.PORT;
+
 server.listen(port);
 
 

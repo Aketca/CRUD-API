@@ -5,4 +5,4 @@ export interface User {
     hobbies: string[],
 }
 
-export const users: User[] = [];
+export let users: User[] = [];
